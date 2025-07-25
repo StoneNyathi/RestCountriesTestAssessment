@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema ",
+  "title": "Countries API Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "object" },
+      "languages": { "type": "object" },
+      "region": { "type": "string" }
+    },
+    "required": ["name", "languages", "region"]
+  }
+}
